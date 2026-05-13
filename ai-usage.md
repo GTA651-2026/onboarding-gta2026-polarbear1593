@@ -10,8 +10,8 @@
 
 ## 1. Outil utilisé
 
-Outil : Gemini
-Version / date d'accès : __
+Outil : AUCUN
+Version / date d'accès : 2026-05-13
 
 *(Si plusieurs outils, dupliquez cette section.)*
 
@@ -48,5 +48,5 @@ __
 Je déclare que le contenu final reflète mon jugement personnel. Je suis responsable
 de l'exactitude, de la pertinence et du raisonnement — outil IA utilisé ou non.
 
-Nom : __
-Date : __
+Nom : Samuel MAURICE
+Date : 2026-05-13
