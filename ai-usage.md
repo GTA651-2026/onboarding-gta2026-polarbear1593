@@ -10,9 +10,8 @@
 
 ## 1. Outil utilisé
 
-Outil : AUCUN
-Version / date d'accès : 2026-05-13
-
+Outil : GEMINI
+Version / date d'accès : 2026-05-13 
 *(Si plusieurs outils, dupliquez cette section.)*
 
 ---
@@ -21,6 +20,8 @@ Version / date d'accès : 2026-05-13
 
 *(Tâche précise — ex. : « structurer la section ROI », pas : « écrire le travail ».)*
 
+Effectuer de l'idéation sur les enjeux spécifiques aux tailles des structures.
+Faire de la critique sur mon travail.
 __
 
 ---
