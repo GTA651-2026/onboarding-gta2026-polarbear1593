@@ -8,31 +8,34 @@
 
 ## Cas choisi
 
-_(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
+_Klarna_
 
 ## 1. Probleme d'affaires resolu
 
-_(En 2-3 phrases : quel probleme concret l'organisation cherchait-elle a resoudre ?)_
+La companie a cherché à diminuer ses coûts dans le but d'augmenter sa rentabilité. L'automatisation de tâches a permis d'alléger la masse salariale.
 
 ## 2. Fonction d'affaires ciblee
 
-_(Service client, developpement logiciel, analyse financiere, etc.)_
+Le sercice client est la cible ici. On voit que l'entreprise essaye de pallier à des cas qui peuvent être répétitifs. D'où la pertinence de l'automatisation.
 
 ## 3. Role specialise que l'agent orchestre
 
-_(Nommez-le precisement : agent de service client, agent developpeur, agent analyste, etc.)_
+Agent de service client.
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-_(Chiffres concrets issus des sources du cours. Ex. : 700 agents equivalents, 55 % plus rapide, etc.)_
+-5% des coûts sur un déploiement concernant 2/3 des conversations.
+2/11 du temps habituel consacré à la résolution de problème en service client.
+Réduction d'erreur de 25%.
+Disponibilitée 24/7.
 
 ## 5. Risque principal et mitigation concrete
-
-_(Quel est le risque le plus important ? Quelle mesure concrete le reduit ?)_
+Risque de churn client en raison de la perte de confiance provoquée par la dégradation de la qualité de service aux clients.
+Mitigation : classification par niveau de complexité. Adaptation des styles de communications de l'agent pour répondre aux besoins du persona. Adaptation des processus internes de gestions des requêtes client dans le but d'éviter la survenance de l'insatisfaction sans compromettre l'automatisation.
 
 ## 6. Condition de succes pour votre organisation
 
-_(Qu'est-ce qui doit etre en place pour que ce deploiement agentique fonctionne ?)_
+Le d'ploiement agnetique sera un succès s'il est organisé dans une perspective transversale et stratégique et non comme une simple "upgrade" technique. Il faut garder au centre la valeure d'affaire de l'organisation et le besoin des clients dans le but de maintenir l'intégrité structurelle du modèle d'affaire.
 
 ---
 
