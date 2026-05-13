@@ -1,64 +1,44 @@
 # M1 — Grille de sélection et évaluation de solutions IA
 
-> Comparez **Brex** (CFO virtuel), **Salesforce Einstein** (aide à la décision commerciale)
-> et **Microsoft Copilot 365** (productivité) sur 5 critères, pour **deux contextes** :
-> une PME de 50 employés et une grande entreprise de 500+ employés.
-> Concluez par une **recommandation argumentée par contexte**.
->
-> Exportez en PDF et déposez `M1_grille_selection_agents.pdf` dans ce dossier.
-> Mettez à jour `ai-usage.md` à la racine du dépôt (obligatoire, même si « Aucun »).
-
----
-
 ## Contexte 1 — PME de 50 employés
 
-_(Décrivez brièvement la PME : secteur, maturité numérique, budget IA approximatif, équipe IT.)_
+**Description :** Cabinet de services professionnels (ex: génie-conseil) à Sherbrooke. Maturité numérique moyenne (utilisent déjà Microsoft 365), budget IA limité (~15k$ - 20k$), équipe IT réduite à un seul administrateur système. Soumis à la Loi 25 sur la protection des données.
 
 | Critère | Brex | Salesforce Einstein | Microsoft Copilot 365 |
 |---|---|---|---|
-| **1. Rôle spécialisé orchestré** _(nommez le spécialiste que l'agent remplace/augmente)_ | | | |
-| **2. Impact d'affaires** _(1-5 + justification en 1 phrase)_ | | | |
-| **3. Faisabilité PME** _(1-5 + données, compétences, intégration)_ | | | |
-| **4. Coût estimé** _(ordre de grandeur annuel + TCO si pertinent)_ | | | |
-| **5. Risque principal** _(et mitigation concrète)_ | | | |
+| **1. Rôle spécialisé orchestré** | **Contrôleur financier (CFO) :** Automatisation des notes de frais et conformité. | **Analyste des ventes :** Priorisation prédictive des opportunités commerciales. | **Adjoint à la rédaction :** Synthèse de réunions et rédaction de rapports techniques. |
+| **2. Impact d'affaires** | **4/5** : Réduction massive du temps administratif pour la direction financière. | **2/5** : Impact limité si le volume de leads n'exige pas de priorisation IA. | **5/5** : Gain de productivité quotidien pour 100% des employés de bureau. |
+| **3. Faisabilité PME** | **5/5** : Solution SaaS native, nécessite peu de nettoyage de données préalable. | **1/5** : Nécessite une instance Salesforce propre et des compétences de gestion de données. | **4/5** : Intégration facile si l'infrastructure M365 est déjà en place. |
+| **4. Coût estimé** | ~0$ - 1 000$ (frais de service variables, pas de licences lourdes). | ~40 000$+ (coût cumulé CRM + licences Einstein + intégration). | ~24 000$ / an (environ 40$ CAD / usager / mois pour 50 pers.). |
+| **5. Risque principal** | **Sécurité financière :** Accès aux fonds. *Mitigation :* Plafonds de dépenses stricts. | **Données biaisées :** Mauvais conseils de vente. *Mitigation :* Audit des données initial. | **Loi 25 :** Fuite de données sensibles. *Mitigation :* Configuration des politiques de sécurité M365. |
 
 ### Recommandation pour la PME
 
-_(2-3 phrases : quelle solution déployer en premier, et pourquoi ce choix bat les deux autres dans CE contexte.)_
+Microsoft Copilot 365 est la solution à déployer en priorité, car elle offre le meilleur rapport impact/faisabilité pour une organisation sans équipe de données dédiée. Elle bat Einstein par sa simplicité d'intégration et Brex par son utilité transversale pour tous les "knowledge workers" du cabinet.
 
 ---
 
 ## Contexte 2 — Grande entreprise de 500+ employés
 
-_(Décrivez brièvement : secteur, systèmes existants — ERP/CRM, contraintes de gouvernance, sponsor.)_
+**Description :** Manufacturier québécois avec distribution internationale. Utilise un ERP complexe (ex: SAP) et Salesforce comme CRM central. Gouvernance stricte, équipe TI dédiée et sponsor exécutif identifié.
 
 | Critère | Brex | Salesforce Einstein | Microsoft Copilot 365 |
 |---|---|---|---|
-| **1. Rôle spécialisé orchestré** | | | |
-| **2. Impact d'affaires** _(1-5 + justification)_ | | | |
-| **3. Faisabilité grande entreprise** _(1-5 + intégration systèmes, gouvernance)_ | | | |
-| **4. Coût estimé** _(licences + intégration + formation)_ | | | |
-| **5. Risque principal** _(et mitigation)_ | | | |
+| **1. Rôle spécialisé orchestré** | **Auditeur de dépenses :** Surveillance automatisée des politiques de frais mondiales. | **Directeur de la stratégie commerciale :** Prévision des revenus (Forecasting). | **Gestionnaire de base de connaissances :** Navigation dans l'information corporative. |
+| **2. Impact d'affaires** | **3/5** : Gain d'efficacité, mais valeur incrémentale faible face à un ERP robuste. | **5/5** : Une hausse de 5% du taux de conversion génère des revenus massifs. | **4/5** : Réduction du "bruit" informationnel pour les cadres et la gestion. |
+| **3. Faisabilité** | **2/5** : Difficile d'intégrer Brex aux systèmes bancaires et ERP régionaux disparates. | **4/5** : Données déjà centralisées ; l'équipe TI peut gérer le nettoyage et l'optimisation. | **3/5** : Risque de sur-partage d'information interne sans gouvernance préalable. |
+| **4. Coût estimé** | ~15k$ - 25k$ (intégration et support spécifique). | ~150k$+ / an (licences Enterprise + support expert interne). | ~250k$+ / an (30$ USD/usager pour 500+ employés). |
+| **5. Risque principal** | **Silos de données :** Incompatibilité ERP. *Mitigation :* Connecteurs API personnalisés. | **Hallucinations :** Prévisions de ventes erronées. *Mitigation :* Validation humaine systématique. | **Sécurité des documents :** Accès de l'IA à des dossiers restreints. *Mitigation :* Audit SharePoint. |
 
 ### Recommandation pour la grande entreprise
 
-_(2-3 phrases : quelle solution, et pourquoi le choix diffère — ou ne diffère pas — de la PME.)_
+Salesforce Einstein est le choix stratégique, car l'avantage compétitif réside ici dans la précision décisionnelle plutôt que dans la simple productivité individuelle. Contrairement à la PME, la grande entreprise possède les ressources TI pour transformer les prédictions d'Einstein en un levier de croissance mesurable.
 
 ---
 
 ## Synthèse — ce que la grille révèle
 
-_(3-5 phrases : quel critère a fait basculer la décision ? Qu'est-ce que ça enseigne sur la sélection de solutions IA en général ? Préparation directe à l'Examen-cas 1.)_
-
----
-
-## Liste de contrôle de remise
-
-- [ ] Les 3 agents sont comparés sur les mêmes 5 critères dans les deux contextes
-- [ ] Le rôle spécialisé orchestré est nommé précisément pour chaque agent
-- [ ] Les scores sont justifiés (pas juste des chiffres)
-- [ ] La recommandation diffère — ou est explicitement justifiée comme identique — entre PME et grande entreprise
-- [ ] Le contexte d'une organisation québécoise est pris en compte (Loi 25, marché local, talent)
-- [ ] `ai-usage.md` mis à jour à la racine du dépôt
+Le critère de la faisabilité organisationnelle (données propres et compétences TI) a été le facteur décisif, dépassant la simple puissance technique de l'IA. Cela enseigne que la sélection d'une solution IA est un acte d'alignement stratégique : en PME, on privilégie l'agilité et la polyvalence, alors qu'en grande entreprise, on cherche la spécialisation à haut impact sur le revenu. La grille montre que le contexte détermine la pondération des critères, une leçon fondamentale pour l'Examen-cas 1.
 
 > **Crédit :** Jalon M1 — pass/fail (1,5 % du cours). Préparation directe à l'**Examen-cas 1** (S05, 25 %).
+
